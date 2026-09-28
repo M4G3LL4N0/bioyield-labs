@@ -89,21 +89,21 @@ export default function Home() {
         </p>
         <ol className="mt-6 space-y-4 text-sm leading-7 text-emerald-100/75">
           <li>
-            <span className="font-mono text-xs text-emerald-300">01</span>
+            <span className="font-mono text-xs text-emerald-300">01 · open question</span>
             <span className="ml-3">
               Can biological crop-protection ideas be discussed as research questions
               without turning the website into operational guidance?
             </span>
           </li>
           <li>
-            <span className="font-mono text-xs text-emerald-300">02</span>
+            <span className="font-mono text-xs text-emerald-300">02 · open question</span>
             <span className="ml-3">
               What belongs in a public note versus a closed conversation with
               people who already have their own scientific and legal counsel?
             </span>
           </li>
           <li>
-            <span className="font-mono text-xs text-emerald-300">03</span>
+            <span className="font-mono text-xs text-emerald-300">03 · open question</span>
             <span className="ml-3">
               How do we keep the page honest that this is a concept, not a
               registered product and not a field recommendation?
