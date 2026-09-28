@@ -46,6 +46,21 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="mt-12 grid gap-4 sm:grid-cols-2" aria-label="Public boundary">
+        <article className="rounded-2xl border border-emerald-400/30 bg-emerald-400/5 p-5">
+          <p className="font-mono text-xs uppercase tracking-[0.16em] text-emerald-300">On this site</p>
+          <p className="mt-3 text-sm leading-7 text-emerald-50">
+            The research direction, the questions, and the limits. A visitor can see what the concept is about.
+          </p>
+        </article>
+        <article className="rounded-2xl border border-emerald-900/60 bg-black/30 p-5">
+          <p className="font-mono text-xs uppercase tracking-[0.16em] text-emerald-200/70">Not on this site</p>
+          <p className="mt-3 text-sm leading-7 text-emerald-100/70">
+            Methods, formulations, strain choices, synthesis, application, and anything a person would follow as a procedure.
+          </p>
+        </article>
+      </section>
+
       <section className="mt-12 rounded-2xl border border-emerald-900/50 bg-[#0a1812] p-6 sm:p-8">
         <h2 className="text-lg font-semibold text-emerald-50">Research questions on this page</h2>
         <p className="mt-3 max-w-3xl text-sm leading-7 text-emerald-100/70">
