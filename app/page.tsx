@@ -46,7 +46,27 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mt-12 grid gap-4 sm:grid-cols-2" aria-label="Public boundary">
+      <nav className="mt-8 flex flex-wrap gap-2" aria-label="How to read this page">
+        {[
+          ["#boundary", "Public boundary"],
+          ["#questions", "Questions"],
+          ["#posture", "Posture"],
+          ["#desk", "Research desk"],
+        ].map(([href, label]) => (
+          <a
+            key={href}
+            href={href}
+            className="rounded-full border border-emerald-200/20 px-4 py-2 text-sm text-emerald-100 hover:bg-white/5"
+          >
+            {label}
+          </a>
+        ))}
+      </nav>
+      <p className="mt-3 text-sm text-emerald-100/60">
+        Read in this order. Nothing on the page is a procedure.
+      </p>
+
+      <section id="boundary" className="mt-12 grid gap-4 sm:grid-cols-2" aria-label="Public boundary">
         <article className="rounded-2xl border border-emerald-400/30 bg-emerald-400/5 p-5">
           <p className="font-mono text-xs uppercase tracking-[0.16em] text-emerald-300">On this site</p>
           <p className="mt-3 text-sm leading-7 text-emerald-50">
@@ -61,7 +81,7 @@ export default function Home() {
         </article>
       </section>
 
-      <section className="mt-12 rounded-2xl border border-emerald-900/50 bg-[#0a1812] p-6 sm:p-8">
+      <section id="questions" className="mt-12 rounded-2xl border border-emerald-900/50 bg-[#0a1812] p-6 sm:p-8">
         <h2 className="text-lg font-semibold text-emerald-50">Research questions on this page</h2>
         <p className="mt-3 max-w-3xl text-sm leading-7 text-emerald-100/70">
           The public site names the direction and the limits. It does not publish
